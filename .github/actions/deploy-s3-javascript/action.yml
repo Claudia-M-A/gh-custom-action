@@ -2,4 +2,4 @@ name: Deploy to S3
 description: Deploys the website to S3 bucket.
 runs:
   using: "node24"
-  main: "main.js"
+  main: "dist/main.js"
