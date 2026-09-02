@@ -1,5 +1,5 @@
 name: Deploy to S3
 description: Deploys the website to S3 bucket.
 runs:
-  using: "node16"
+  using: "node24"
   main: "main.js"
